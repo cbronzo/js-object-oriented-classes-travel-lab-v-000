@@ -16,7 +16,7 @@ class Route {
     }
   
   blocksTravelled () {
-    let eastWest = [
+  let eastWest = [
   '1st Avenue',
   '2nd Avenue',
   '3rd Avenue',
@@ -24,7 +24,7 @@ class Route {
   'Park',
   'Madison Avenue',
   '5th Avenue'
-]
+  ]
   
   }
   
