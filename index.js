@@ -24,7 +24,7 @@ class Route {
   'Park',
   'Madison Avenue',
   '5th Avenue'
-  }}
+  ]}
   
   estimatedTime () {
     
