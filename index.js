@@ -17,10 +17,8 @@ class Driver {
   
  
   yearsExperienceFromBeginningOf (year) {
-   yearsExperienceFromBeginningOf (endDate) {
     return year - this.startDate.getFullYear()
   }
-}
 
 class Route {
   constructor(beginningLocation, endingLocation) {
