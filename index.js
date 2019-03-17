@@ -7,7 +7,7 @@ let eastWest = [
   'Park',
   'Madison Avenue',
   '5th Avenue'
-];
+]
 
 class Driver {
   constructor(name, startDate) {
