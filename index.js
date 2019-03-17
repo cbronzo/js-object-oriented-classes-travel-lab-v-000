@@ -10,9 +10,9 @@ let eastWest = [
 ];
 
 class Driver {
-  constructor(name, date) {
+  constructor(name, startDate) {
   this.name = date
-  this.date = new Date (date)
+  this.startDate = new Date (startDate)
   }
   
   startDate() {
