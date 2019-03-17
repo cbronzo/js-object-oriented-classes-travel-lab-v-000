@@ -1,5 +1,5 @@
 class Driver {
-  constructor(name, date)
+  constructor(name, date) {
   this.name = date
   this.date = date
   }
@@ -14,12 +14,17 @@ class Driver {
 }
 
 class Route {
-  constructor(beginningLocation, endingLocation)
+  constructor(beginningLocation, endingLocation) {
   this.beginningLocation = beginningLocation
   this.endingLocation = endingLocation
+    }
+  
+  blocksTravelled () {
+  
   }
   
-  
-
+  estimatedTime () {
+    
+  }
 
 }
