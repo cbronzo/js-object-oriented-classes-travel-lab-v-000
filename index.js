@@ -24,7 +24,15 @@ class Route {
   'Park',
   'Madison Avenue',
   '5th Avenue'
-  ]}
+  ]
+  
+  const vert = this.endingLocation.vertical - this.beginningLocation.vertical
+    const horiz_end = eastWest.indexOf(this.endingLocation.horizontal)
+    const horiz_start = eastWest.indexOf(this.beginningLocation.horizontal)
+    const horiz = horiz_end - horiz_start;
+
+     return vert + horiz;
+  }
   
   estimatedTime () {
     
